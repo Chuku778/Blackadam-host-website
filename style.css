@@ -1,0 +1,168 @@
+/* .
+} */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.section {
+  background-color: #054da5 !important;
+  padding: 1rem 10rem;
+  border-bottom-right-radius: 10rem;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-between;
+  gap: 0 1rem;
+}
+
+.logo {
+  color: white;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.hero-header {
+  color: white;
+  font-size: 3rem;
+}
+
+.hero-description {
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 100;
+}
+
+.hero-text-content {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem 0;
+}
+
+.hero-form-container {
+  width: 50%;
+  display: flex;
+justify-content: center;
+height: 120px;
+margin-top: 10rem;
+
+
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: rgb(243, 237, 237);
+  color: rgb(203, 197, 188);
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 3px 10px;
+  border: 1px solid white;
+  border-radius: 1rem;
+  gap: 1rem;
+  padding: 2rem;
+}
+
+form h2 {
+  color: rgb(21, 11, 11);
+  padding: 1rem;
+}
+
+form input {
+  padding: 0.5rem;
+  background-color: white;
+  border: none;
+  border-radius: 0.5rem;
+}
+
+form button {
+  width: 40%;
+  padding: 0.5rem;
+  border-radius: 0.2rem;
+  border: none;
+  background-color: #054da5;
+  color: white;
+}
+
+@media screen and (min-width: 768px) {
+  /*  */
+
+  .hero-content {
+    display: flex;
+    height: 20rem;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5rem 0;
+  }
+}
+.welcomehead {
+  text-align: center;
+  margin-top: 3rem;
+  padding: 2rem;
+}
+.Grid { display: flex;
+  justify-content: space-around;
+
+}
+.Gridtext {font-weight: bold;}
+.sub2 {
+  display: flex;
+  justify-content: space-around;
+}
+.cli-image {
+  display: flex;
+}
+.about p {margin-top: 1rem;
+  font-weight: lighter;
+  display: block;
+  border: 1rem normal white;
+  border-radius: 1rem;
+  padding: 1rem 2rem;
+
+}
+.section-2 {
+  background-color: #054da5;
+  color: aliceblue;
+  display: flex;
+  justify-content: space-around;
+  padding: 2rem;
+}
+.section-2 p{
+  margin: 3rem;
+  text-align: center;
+}
+.languages { text-align: center;
+margin: 3rem;}
+
+.lang-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+}
+.languages .lang-list {
+  text-align: center;
+  margin-top: 16px 10px 45px;
+  transition: transform 0.4s ease-in;
+}
+.languages .lang-list h4 {font-size: 30px;
+margin-bottom: 20px;}
+.supported {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
